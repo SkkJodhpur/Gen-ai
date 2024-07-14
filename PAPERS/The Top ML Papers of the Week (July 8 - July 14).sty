@@ -1,28 +1,67 @@
-Top ML Papers of the Week (July 8 - July 14)
+Top ML Papers of the Week
 
-1. **FlashAttention-3**
-    - **Summary:** Adapts FlashAttention for modern hardware, utilizing techniques like producer-consumer asynchrony, interleaving block-wise matmul and softmax operations, and block quantization and incoherent processing.
-    - **Performance:** Achieves 1.5-2.0x speedup on H100 GPUs with FP16, reaching up to 740 TFLOPs/s (75% utilization), and with FP8, nearing 1.2 PFLOPs/s.
-    - [Read more](https://tridao.me/publications/flash3/flash3.pdf)
-    
-2. **RankRAG**
-    - **Summary:** Introduces a new instruction fine-tuning framework for effective context ranking and answering generation, enhancing LLM’s RAG capabilities. Utilizes a small ranking dataset to outperform existing expert ranking models.
-    - **Performance:** Llama3-RankRAG significantly outperforms Llama3-ChatQA-1.5 and GPT-4 on nine knowledge-intensive benchmarks.
-    - [Read more](https://arxiv.org/abs/2407.02485v1)
-    
-3. **Mixture of A Million Experts**
-    - **Summary:** Proposes a parameter-efficient expert retrieval mechanism leveraging the product key technique for sparse retrieval from a million tiny experts. Decouples computational cost from parameter count by routing to numerous tiny experts through a learned index structure.
-    - **Performance:** Demonstrates superior efficiency compared to dense FFW, coarse-grained MoEs, and Product Key Memory (PKM) layers.
-    - [Read more](https://arxiv.org/abs/2407.04153)
-    
-4. **Reasoning in LLMs: A Geometric Perspective**
-    - **Summary:** Explores reasoning in LLMs from a geometric perspective, connecting the expressive power of LLMs to the density of their self-attention graphs. Reports that higher intrinsic dimension implies greater expressive capacity.
-    - **Performance:** Establishes that the density of self-attention graphs defines the intrinsic dimension of inputs to the MLP blocks.
-    - [Read more](https://arxiv.org/abs/2407.02678)
-    
-5. **Contextual Hallucinations Mitigation in LLMs**
-    - **Summary:** Proposes a new method for detecting and reducing contextual hallucinations in LLMs by using the ratio of attention weights on context vs. newly generated tokens. Develops a decoding strategy to mitigate hallucinations and transfers the detector across models without retraining.
-    - **Performance:** Reduces contextual hallucinations by 10% in the XSum summarization task.
-    - [Read more](https://arxiv.org/abs/2407.07071)
+Welcome to the repository where we explore the top machine learning papers of the week. This week's highlights (July 8 - July 14 feature groundbreaking advancements in areas like attention mechanisms, ranking and retrieval models, expert systems, geometric reasoning in LLMs, and hallucination mitigation.
 
-Feel free to dive deeper into these groundbreaking papers and explore the advancements they bring to the field of machine learning.
+Papers
+
+ 1. FlashAttention-3
+Summary: FlashAttention-3 adapts FlashAttention to modern hardware, using producer-consumer asynchrony, interleaving block-wise matmul and softmax operations, and block quantization and incoherent processing.
+
+Performance: 
+- Achieves 1.5-2.0x speedup on H100 GPUs with FP16, reaching up to 740 TFLOPs/s (75% utilization
+- With FP8, it reaches close to 1.2 PFLOPs/s.
+
+https://tridao.me/publications/flash3/flash3.pdf
+
+---
+
+ 2. RankRAG
+Summary: RankRAG introduces a new instruction fine-tuning framework for effective context ranking and answering generation, enhancing LLM’s RAG capabilities. It utilizes a small ranking dataset to outperform existing expert ranking models.
+
+Performance: 
+- Llama3-RankRAG significantly outperforms Llama3-ChatQA-1.5 and GPT-4 on nine knowledge-intensive benchmarks.
+
+https://arxiv.org/abs/2407.02485v1
+
+---
+
+ 3. Mixture of A Million Experts
+Summary: This paper proposes a parameter-efficient expert retrieval mechanism leveraging the product key technique for sparse retrieval from a million tiny experts. It decouples computational cost from parameter count by routing to numerous tiny experts through a learned index structure.
+
+Performance: 
+- Demonstrates superior efficiency compared to dense FFW, coarse-grained MoEs, and Product Key Memory (PKM layers.
+
+https://arxiv.org/abs/2407.04153
+
+---
+
+ 4. Reasoning in LLMs: A Geometric Perspective
+Summary: This work explores reasoning in LLMs from a geometric perspective, connecting the expressive power of LLMs to the density of their self-attention graphs. It reports that a higher intrinsic dimension implies greater expressive capacity.
+
+Performance: 
+- Establishes that the density of self-attention graphs defines the intrinsic dimension of inputs to the MLP blocks.
+
+https://arxiv.org/abs/2407.02678
+
+---
+
+ 5. Contextual Hallucinations Mitigation in LLMs
+Summary: Proposes a new method for detecting and reducing contextual hallucinations in LLMs by using the ratio of attention weights on context vs. newly generated tokens. Develops a decoding strategy to mitigate hallucinations and transfers the detector across models without retraining.
+
+Performance: 
+- Reduces contextual hallucinations by 10% in the XSum summarization task.
+
+https://arxiv.org/abs/2407.07071
+
+---
+
+Contributing
+We welcome contributions! Please read our [contributing guidelinesCONTRIBUTING.md before making any changes.
+
+License
+This repository is licensed under the MIT License. See the [LICENSELICENSE file for more information.
+
+Contact
+For any questions or comments, please feel free to reach out.
+
+---
