@@ -7,6 +7,7 @@ Installation
 To use the fine-tuned model, you need to have Python and pip installed on your system. Follow these steps to set up the environment:
 
 Clone the repository:
+
     git clone https://github.com/your-repository/fine-tuned-model.git
     cd fine-tuned-model
 
