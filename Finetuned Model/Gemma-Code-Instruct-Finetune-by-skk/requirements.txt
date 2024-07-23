@@ -1,0 +1,4 @@
+huggingface_hub==0.22.2
+torch
+transformers
+gradio
