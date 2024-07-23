@@ -42,7 +42,7 @@ To get started with any of the projects, follow the instructions provided in the
 
 **🤝 Contributions**
 
-Contributions to this repository are welcome. If you have any improvements or new projects to add, please fork the repository and submit a pull request. Make sure to follow the contribution guidelines provided in the CONTRIBUTING.md file.
+Contributions to this repository are welcome. If you have any improvements or new projects to add, please fork the repository and submit a pull request.
 
 **📞 Contact**
 
