@@ -6,11 +6,11 @@ Welcome to the GEN AI repository. This repository contains various projects and 
 **Repository Structure**
 Finetuned Model: This folder contains fine-tuned models. These models have been pre-trained and then further refined for specific tasks to enhance their performance.
 
-    **Langchain:** Here, you'll find the LangChain Chat implementation with Mistral and Gemini models. LangChain is a framework designed to help developers create applications that generate natural language responses.
+**Langchain:** Here, you'll find the LangChain Chat implementation with Mistral and Gemini models. LangChain is a framework designed to help developers create applications that generate natural language responses.
 
-    **PAPERS:** This folder is regularly updated with the top ML papers of the week. It includes the latest research and developments in the field of AI and ML.
+**PAPERS:** This folder is regularly updated with the top ML papers of the week. It includes the latest research and developments in the field of AI and ML.
 
-    **RAG:** This section contains the RAG (Retrieval-Augmented Generation) application using Langchain, OpenAI API, and FAISS. RAG combines retrieval and generation to provide more accurate and contextually relevant responses.
+**RAG:** This section contains the RAG (Retrieval-Augmented Generation) application using Langchain, OpenAI API, and FAISS. RAG combines retrieval and generation to provide more accurate and contextually relevant responses.
 
 **Getting Started**
     To get started with any of the projects, follow the instructions provided in the respective folders. Each project includes detailed setup instructions and usage examples.
