@@ -28,6 +28,7 @@ Finetuned from model: **google/gemma-2b**
 Repository: Fine-Tuned GEMMA-2B
 
 # Uses
+
 # Direct Use
 The model is intended for direct use in generating contextually appropriate responses for doctor-patient interactions. It can be used in virtual assistants, chatbots, and other medical consultation platforms to assist healthcare providers in communicating with patients.
 
