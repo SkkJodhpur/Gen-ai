@@ -25,9 +25,9 @@ To get started with any of the projects, follow the instructions provided in the
 
 **📚 BOOKS**
 
-Navigate to the BOOKS directory.
-Browse through the selection of books on ML, DL, and AI.
-Access the reading materials to expand your knowledge.
+- Navigate to the BOOKS directory.
+- Browse through the selection of books on ML, DL, and AI.
+- Access the reading materials to expand your knowledge.
 
 **🔧 Finetuned Model**
 - Navigate to the Finetuned Model directory.
