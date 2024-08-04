@@ -4,6 +4,9 @@ Welcome to the GEN AI repository. This repository contains various projects and 
 
 **📂 Repository Structure**
 
+**📚 BOOKS**
+This section includes a curated collection of books on Machine Learning (ML), Deep Learning (DL), and Artificial Intelligence (AI). These books are essential reads for anyone looking to deepen their understanding of these fields.
+
 **🔧 Finetuned Model**
 This folder contains fine-tuned models. These models have been pre-trained and then further refined for specific tasks to enhance their performance.
 
@@ -19,6 +22,12 @@ This section contains the RAG (Retrieval-Augmented Generation) application using
 **🚀 Getting Started**
 
 To get started with any of the projects, follow the instructions provided in the respective folders. Each project includes detailed setup instructions and usage examples.
+
+**📚 BOOKS**
+
+Navigate to the BOOKS directory.
+Browse through the selection of books on ML, DL, and AI.
+Access the reading materials to expand your knowledge.
 
 **🔧 Finetuned Model**
 - Navigate to the Finetuned Model directory.
