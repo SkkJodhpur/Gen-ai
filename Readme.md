@@ -49,6 +49,10 @@ To get started with any of the projects, follow the instructions provided in the
 - Follow the detailed instructions to set up the Retrieval-Augmented Generation application.
 - Use the scripts to see how RAG improves the response accuracy and relevance.
 
+
+
+![alt text](1717898878903.jpg)
+
 **🤝 Contributions**
 
 Contributions to this repository are welcome. If you have any improvements or new projects to add, please fork the repository and submit a pull request.
