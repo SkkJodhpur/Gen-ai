@@ -1,6 +1,6 @@
 Through its ability to generate useful responses to questions in seconds, ChatGPT has a wide range of potential applications across various industries:
 
-Provide personalized customer service
+**Provide personalized customer service**
 Assist with language translation and coding tasks
 Generate content for websites or social media
 Create chatbots and virtual assistants
