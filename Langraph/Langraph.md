@@ -20,6 +20,7 @@ LangGraph introduces several key components to support its functionality:
 - Starting Edge: Connects the start of the graph to the first node to be executed.
 - Normal Edges: Ensure that one node is always called after another.
 - Conditional Edges: Use a function to determine which node to call next based on the output of a previous node.
+
 **3. Compilation:**
 Once the graph is defined, it can be compiled into a runnable object that exposes methods similar to those in LangChain, allowing for seamless integration and execution.
 
