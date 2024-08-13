@@ -1,0 +1,8 @@
+fastapi
+langchain_openai
+langchain
+langserve
+uvicorn
+langchain_groq
+sse_starlette
+langserve[all]
