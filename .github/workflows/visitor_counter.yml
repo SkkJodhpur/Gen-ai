@@ -1,0 +1,23 @@
+name: Visitor Counter
+
+on:
+  page_build:
+    types: [completed]
+
+jobs:
+  log-visits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Log visit
+        run: echo "$(date): New visit!" >> visitor_log.txt
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add visitor_log.txt
+          git commit -m "Log new visit"
+          git push
