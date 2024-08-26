@@ -4,9 +4,6 @@ on:
   page_build:
     types: [completed]
 
-permissions:
-  contents: write  # Allow writing to the repository
-
 jobs:
   log-visits:
     runs-on: ubuntu-latest
@@ -15,9 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Log visit
-        run: |
-          touch visitor_log.txt  # Create the file if it doesn't exist
-          echo "$(date): New visit!" >> visitor_log.txt
+        run: echo "$(date): New visit!" >> visitor_log.txt
 
       - name: Commit changes
         run: |
