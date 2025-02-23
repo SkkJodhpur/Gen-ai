@@ -8,16 +8,16 @@ jobs:
   log-visits:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Log visit
+      - name: Log Visit
         run: echo "$(date): New visit!" >> visitor_log.txt
 
-      - name: Commit changes
+      - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add visitor_log.txt
-          git commit -m "Log new visit"
-          git push
+          git commit -m "Log new visit" || echo "No changes to commit"
+          git push || echo "Push failed, likely due to no changes"
