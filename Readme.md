@@ -1,5 +1,4 @@
 **🌟 GEN AI Repository 🌟**
-![Visitor Count](https://profile-counter.glitch.me/SkkJodhpur/count.svg)
 
 
 Welcome to the GEN AI repository. This repository contains various projects and resources related to AI and Machine Learning, including fine-tuned models, implementations of LangChain, and other notable ML papers.
@@ -62,4 +61,10 @@ Contributions to this repository are welcome. If you have any improvements or ne
 **📞 Contact**
 
 For any questions or support, please open an issue in the repository or contact [Skk Jodhpur](mailto:Skk.jodhpur@gmail.com).
+
+
+Total Visitor Count
+
+![Visitor Count](https://profile-counter.glitch.me/SkkJodhpur/count.svg)
+
 
